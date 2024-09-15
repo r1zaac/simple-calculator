@@ -37,7 +37,6 @@
 
             <button onclick="
                 calculation = eval(calculation);
-                console.log(calculation);
                 document.querySelector('.js-show').value = calculation;
                 localStorage.setItem('calculation', calculation);
             " class="operators">=</button>
@@ -46,7 +45,6 @@
 
             <button onclick="
                 calculation = '';
-                console.log(calculation);
                 document.querySelector('.js-show').value = calculation;
                 localStorage.removeItem('calculation', calculation);
             ">Clear</button>
